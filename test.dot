@@ -1,0 +1,8 @@
+digraph G {
+	dpi = 300;
+	work [label="Working directory", shape=box];
+	stage [label="Staging area", shape=box];
+	repo [label="Repository", shape=box];
+	work -> stage -> repo;
+}
+
